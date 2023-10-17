@@ -11,6 +11,10 @@
 		2138ED122ADA95EA0022B2D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138ED112ADA95EA0022B2D7 /* ContentView.swift */; };
 		2138ED142ADA95EC0022B2D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2138ED132ADA95EC0022B2D7 /* Assets.xcassets */; };
 		2138ED172ADA95EC0022B2D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2138ED162ADA95EC0022B2D7 /* Preview Assets.xcassets */; };
+		A910850F2ADE68EB00FC22A5 /* SplashscreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A910850E2ADE68EB00FC22A5 /* SplashscreenView.swift */; };
+		A91085112ADE696000FC22A5 /* Intersts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91085102ADE696000FC22A5 /* Intersts.swift */; };
+		A91085132ADE69A800FC22A5 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91085122ADE69A800FC22A5 /* SecondView.swift */; };
+		A91085182ADE6AEB00FC22A5 /* Ithra in Resources */ = {isa = PBXBuildFile; fileRef = A91085172ADE6AEB00FC22A5 /* Ithra */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		2138ED112ADA95EA0022B2D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2138ED132ADA95EC0022B2D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2138ED162ADA95EC0022B2D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A910850E2ADE68EB00FC22A5 /* SplashscreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashscreenView.swift; sourceTree = "<group>"; };
+		A91085102ADE696000FC22A5 /* Intersts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersts.swift; sourceTree = "<group>"; };
+		A91085122ADE69A800FC22A5 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		A91085172ADE6AEB00FC22A5 /* Ithra */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ithra; path = "../../../../Downloads/Ithra Bold-3/Ithra"; sourceTree = "<group>"; };
+		A91085192ADE6B0C00FC22A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		2138ED0E2ADA95EA0022B2D7 /* mainpage3 */ = {
 			isa = PBXGroup;
 			children = (
+				A91085192ADE6B0C00FC22A5 /* Info.plist */,
+				A91085162ADE6AD400FC22A5 /* font */,
 				2138ED0F2ADA95EA0022B2D7 /* mainpage3App.swift */,
 				2138ED112ADA95EA0022B2D7 /* ContentView.swift */,
+				A910850E2ADE68EB00FC22A5 /* SplashscreenView.swift */,
+				A91085102ADE696000FC22A5 /* Intersts.swift */,
+				A91085122ADE69A800FC22A5 /* SecondView.swift */,
 				2138ED132ADA95EC0022B2D7 /* Assets.xcassets */,
 				2138ED152ADA95EC0022B2D7 /* Preview Content */,
 			);
@@ -65,6 +79,14 @@
 				2138ED162ADA95EC0022B2D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A91085162ADE6AD400FC22A5 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				A91085172ADE6AEB00FC22A5 /* Ithra */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +149,7 @@
 			files = (
 				2138ED172ADA95EC0022B2D7 /* Preview Assets.xcassets in Resources */,
 				2138ED142ADA95EC0022B2D7 /* Assets.xcassets in Resources */,
+				A91085182ADE6AEB00FC22A5 /* Ithra in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A910850F2ADE68EB00FC22A5 /* SplashscreenView.swift in Sources */,
+				A91085132ADE69A800FC22A5 /* SecondView.swift in Sources */,
+				A91085112ADE696000FC22A5 /* Intersts.swift in Sources */,
 				2138ED122ADA95EA0022B2D7 /* ContentView.swift in Sources */,
 				2138ED102ADA95EA0022B2D7 /* mainpage3App.swift in Sources */,
 			);
@@ -274,6 +300,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mainpage3/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mainpage3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +329,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mainpage3/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mainpage3/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
